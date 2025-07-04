@@ -1,0 +1,17 @@
+streamlit
+torch
+transformers
+open-clip-torch
+faiss-cpu
+scikit-learn
+opencv-python
+tqdm
+networkx
+lmdb
+scenedetect
+ollama
+Pillow
+spacy
+dateparser
+ultralytics  # for YOLOv8 object detection
+sentence-transformers
