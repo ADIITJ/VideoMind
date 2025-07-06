@@ -89,5 +89,5 @@ python scripts/cli_main.py
 
 ---
 
-## 📁 Project Structure
+Authored by Atharva Date
 
