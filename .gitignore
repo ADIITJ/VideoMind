@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Data and cache
+data/
+cache/
+*.lmdb
+*.pkl
+*.pickle
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Video and image outputs
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Gradio and Streamlit temp files
+gradio_cached_examples/
+.gradio/
+.streamlit/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.bak
+*.swp
+*.tmp
+
+# Ignore user-specific configs
+*.vscode/
+.idea/
+*.code-workspace
+
+# Ignore test outputs
+test_outputs/
+docs/
