@@ -86,19 +86,6 @@ python scripts/cli_main.py
 - **LLM-Guided Summarization & QA:** All answers are grounded in extracted context, minimizing hallucination.
 - **Counterfactual Reasoning:** The system can answer "what if" questions by leveraging only the available context and objects.
 
-### System Flow
-
-```mermaid
-flowchart TD
-    A[User uploads video] --> B[Frame Extraction & Captioning]
-    B --> C[CLIP Embedding]
-    C --> D[Hierarchical Time Clustering]
-    C --> E[Object Detection & Clustering]
-    D & E --> F[Temporal Graph Construction]
-    F --> G[Summarization (LLM)]
-    G --> H[Interactive QA/Counterfactual (LLM)]
-    H --> I[Answer & Visual Context to User]
-```
 
 ---
 
